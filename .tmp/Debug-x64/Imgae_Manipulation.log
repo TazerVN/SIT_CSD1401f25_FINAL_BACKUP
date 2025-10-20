@@ -1,0 +1,8 @@
+﻿  Entity.c
+C:\Users\User\Documents\SIT\git\csd1401f25_team_ilchicken\Entity.h(21,2): warning C4091: 'typedef ': ignored on left of 'Entity' when no variable is declared
+  (compiling source file 'Entity.c')
+  
+  Imgae_Manipulation.vcxproj -> C:\Users\User\Documents\SIT\git\csd1401f25_team_ilchicken\bin\Debug-x64\Image_Manipulation.exe
+  3 File(s) copied
+  1 File(s) copied
+  1 File(s) copied

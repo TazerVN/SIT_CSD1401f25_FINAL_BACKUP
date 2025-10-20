@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Image_Manipulation", "Imgae_Manipulation.vcxproj", "{9303D40C-06CB-4BD1-AB0F-BB34978BE725}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9303D40C-06CB-4BD1-AB0F-BB34978BE725}.Debug|x64.ActiveCfg = Debug|x64
+		{9303D40C-06CB-4BD1-AB0F-BB34978BE725}.Debug|x64.Build.0 = Debug|x64
+		{9303D40C-06CB-4BD1-AB0F-BB34978BE725}.Release|x64.ActiveCfg = Release|x64
+		{9303D40C-06CB-4BD1-AB0F-BB34978BE725}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7A0FA3AC-BFF7-4AF1-B81D-CCFCFC4E16D7}
+	EndGlobalSection
+EndGlobal
