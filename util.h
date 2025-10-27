@@ -2,17 +2,14 @@
 #ifndef UTIL_HEADER
 #define UTIL_HEADER
 
-#include "cprocessing.h"
+#include "Global.h"
 
-#define red	0xFF0000FF
-#define yellow 0xFDFF00FF
-#define green 0x00FF00FF
-#define blue 0x0000FFFF
-#define white 0xFFFFFFFF
-#define black 0x000000FF
-
+float absolute(float num);
 int intersectPointToCircle(float pointX, float pointY, float circleX, float circleY, float diameter);
 int interSectRectToRect(float r1X, float r1Y, float r1W, float r1H, float r2X, float r2Y, float r2W, float r2H);
 int interSectCircleToCircle(float c1X, float c1Y, float c1D, float c2X, float c2Y, float c2D);
 int interSectRectToCircle(float rX, float rY, float rW, float rH, float cX, float cY, float cD);
+int IsAreaClicked(float area_center_x, float area_center_y, float area_width, float area_height, float click_x, float click_y);
+int isSliderClicked(float left_x, float left_y, float right_x, float right_y, float click_x, float click_y);
+float SliderDragReturn(float left_x, float left_y, float right_x, float right_y, float click_x, float click_y);
 #endif // !UTIL_HEADER

@@ -1,8 +1,39 @@
-﻿  Entity.c
-C:\Users\User\Documents\SIT\git\csd1401f25_team_ilchicken\Entity.h(21,2): warning C4091: 'typedef ': ignored on left of 'Entity' when no variable is declared
-  (compiling source file 'Entity.c')
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(538,5): warning MSB8028: The intermediate directory (C:\Users\User\Documents\SIT\git\SIT_CSD1401f25_FINAL_BACKUP\.tmp\Debug-x64\) contains files shared from another project (Image_Manipulation.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  menu.c
+C:\Users\User\Documents\SIT\git\SIT_CSD1401f25_FINAL_BACKUP\tilemap.h(14,2): warning C4091: 'typedef ': ignored on left of 'Sprite' when no variable is declared
+  (compiling source file 'menu.c')
   
-  Imgae_Manipulation.vcxproj -> C:\Users\User\Documents\SIT\git\csd1401f25_team_ilchicken\bin\Debug-x64\Image_Manipulation.exe
-  3 File(s) copied
+C:\Users\User\Documents\SIT\git\SIT_CSD1401f25_FINAL_BACKUP\menu.c(24,5): warning C4142: 'alpha': benign redefinition of type
+      C:\Users\User\Documents\SIT\git\SIT_CSD1401f25_FINAL_BACKUP\menu.h(18,14):
+      see declaration of 'alpha'
+  
+C:\Users\User\Documents\SIT\git\SIT_CSD1401f25_FINAL_BACKUP\menu.c(34,45): warning C4244: 'function': conversion from 'unsigned int' to 'float', possible loss of data
+C:\Users\User\Documents\SIT\git\SIT_CSD1401f25_FINAL_BACKUP\menu.c(46,28): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+C:\Users\User\Documents\SIT\git\SIT_CSD1401f25_FINAL_BACKUP\menu.c(46,39): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+C:\Users\User\Documents\SIT\git\SIT_CSD1401f25_FINAL_BACKUP\menu.c(46,71): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+C:\Users\User\Documents\SIT\git\SIT_CSD1401f25_FINAL_BACKUP\menu.c(46,96): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+C:\Users\User\Documents\SIT\git\SIT_CSD1401f25_FINAL_BACKUP\menu.c(43,31): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\User\Documents\SIT\git\SIT_CSD1401f25_FINAL_BACKUP\menu.c(44,31): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\User\Documents\SIT\git\SIT_CSD1401f25_FINAL_BACKUP\menu.c(68,44): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+C:\Users\User\Documents\SIT\git\SIT_CSD1401f25_FINAL_BACKUP\menu.c(71,50): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+C:\Users\User\Documents\SIT\git\SIT_CSD1401f25_FINAL_BACKUP\menu.c(85,29): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'FunctionPtr'
+C:\Users\User\Documents\SIT\git\SIT_CSD1401f25_FINAL_BACKUP\menu.c(85,41): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'FunctionPtr'
+C:\Users\User\Documents\SIT\git\SIT_CSD1401f25_FINAL_BACKUP\menu.c(85,55): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'FunctionPtr'
+C:\Users\User\Documents\SIT\git\SIT_CSD1401f25_FINAL_BACKUP\menu.c(89,29): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'FunctionPtr'
+C:\Users\User\Documents\SIT\git\SIT_CSD1401f25_FINAL_BACKUP\menu.c(89,43): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'FunctionPtr'
+C:\Users\User\Documents\SIT\git\SIT_CSD1401f25_FINAL_BACKUP\menu.c(89,59): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'FunctionPtr'
+C:\Users\User\Documents\SIT\git\SIT_CSD1401f25_FINAL_BACKUP\menu.c(96,22): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+C:\Users\User\Documents\SIT\git\SIT_CSD1401f25_FINAL_BACKUP\menu.c(103,34): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\User\Documents\SIT\git\SIT_CSD1401f25_FINAL_BACKUP\menu.c(109,34): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+C:\Users\User\Documents\SIT\git\SIT_CSD1401f25_FINAL_BACKUP\menu.c(115,87): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
+C:\Users\User\Documents\SIT\git\SIT_CSD1401f25_FINAL_BACKUP\menu.c(116,51): warning C4244: 'function': conversion from 'double' to 'float', possible loss of data
+C:\Users\User\Documents\SIT\git\SIT_CSD1401f25_FINAL_BACKUP\menu.c(121,45): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+C:\Users\User\Documents\SIT\git\SIT_CSD1401f25_FINAL_BACKUP\menu.c(126,51): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+C:\Users\User\Documents\SIT\git\SIT_CSD1401f25_FINAL_BACKUP\menu.c(133,50): warning C4244: 'function': conversion from 'float' to 'int', possible loss of data
+C:\Users\User\Documents\SIT\git\SIT_CSD1401f25_FINAL_BACKUP\menu.c(136,23): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+C:\Users\User\Documents\SIT\git\SIT_CSD1401f25_FINAL_BACKUP\menu.c(153,30): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+C:\Users\User\Documents\SIT\git\SIT_CSD1401f25_FINAL_BACKUP\menu.c(153,58): warning C4244: 'function': conversion from 'int' to 'float', possible loss of data
+  Imgae_Manipulation.vcxproj -> C:\Users\User\Documents\SIT\git\SIT_CSD1401f25_FINAL_BACKUP\bin\Debug-x64\backup.exe
+  9 File(s) copied
   1 File(s) copied
   1 File(s) copied

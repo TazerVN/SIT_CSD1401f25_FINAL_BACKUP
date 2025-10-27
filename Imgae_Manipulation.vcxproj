@@ -10,13 +10,47 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="audio.h" />
+    <ClInclude Include="camera.h" />
+    <ClInclude Include="Collision.h" />
+    <ClInclude Include="Enemy.h" />
+    <ClInclude Include="Entity.h" />
+    <ClInclude Include="Global.h" />
+    <ClInclude Include="hb.h" />
+    <ClInclude Include="menu.h" />
+    <ClInclude Include="options.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="scale.h" />
+    <ClInclude Include="tilemap.h" />
+    <ClInclude Include="timer.h" />
+    <ClInclude Include="util.h" />
+    <ClInclude Include="World.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="audio.c" />
+    <ClCompile Include="camera.c" />
+    <ClCompile Include="Collsion.c" />
+    <ClCompile Include="Enemy.c" />
+    <ClCompile Include="Entity.c" />
+    <ClCompile Include="hb.c" />
+    <ClCompile Include="main.c" />
+    <ClCompile Include="menu.c" />
+    <ClCompile Include="options.c" />
+    <ClCompile Include="Player.c" />
+    <ClCompile Include="scale.c" />
+    <ClCompile Include="tilemap.c" />
+    <ClCompile Include="timer.c" />
+    <ClCompile Include="util.c" />
+    <ClCompile Include="World.c" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
     <ProjectGuid>{9303d40c-06cb-4bd1-ab0f-bb34978be725}</ProjectGuid>
     <RootNamespace>ImgaeManipulation</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>Image_Manipulation</ProjectName>
+    <ProjectName>backup</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
@@ -98,23 +132,6 @@ xcopy "$(SolutionDir)Extern\CProcessing\lib\x64\CProcessing.dll" "$(OutDir)" /s 
 xcopy "$(SolutionDir)Extern\CProcessing\lib\x64\fmod.dll" "$(OutDir)" /s /r /y /q</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="Entity.c" />
-    <ClCompile Include="hb.c" />
-    <ClCompile Include="main.c" />
-    <ClCompile Include="Player.c" />
-    <ClCompile Include="scale.c" />
-    <ClCompile Include="util.c" />
-    <ClCompile Include="World.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Entity.h" />
-    <ClInclude Include="hb.h" />
-    <ClInclude Include="Player.h" />
-    <ClInclude Include="scale.h" />
-    <ClInclude Include="util.h" />
-    <ClInclude Include="World.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
